@@ -5,6 +5,9 @@ import { InputTextModule } from 'primeng/inputtext';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
+import { CheckboxModule } from 'primeng/checkbox';
+import { PasswordModule } from 'primeng/password';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +17,9 @@ import { LoginComponent } from './login/login.component';
   imports: [
     BrowserModule,
     ButtonModule,
-    InputTextModule
+    InputTextModule,
+    CheckboxModule,
+    PasswordModule
   ],
   providers: [],
   bootstrap: [AppComponent]
